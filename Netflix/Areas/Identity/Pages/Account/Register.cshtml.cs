@@ -71,11 +71,20 @@ namespace Netflix.Areas.Identity.Pages.Account
         /// </summary>
         public class InputModel
         {
-            /// <summary>
-            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-            ///     directly from your code. This API may change or be removed in future releases.
-            /// </summary>
             [Required]
+            [DataType(DataType.Text)]
+            [Display(Name = "First Name")]
+            public string Firstname { get; set; }
+
+			[Required]
+			[DataType(DataType.Text)]
+			[Display(Name = "Last Name")]
+			public string Lastname { get; set; }
+			/// <summary>
+			///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+			///     directly from your code. This API may change or be removed in future releases.
+			/// </summary>
+			[Required]
             [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }
