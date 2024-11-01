@@ -18,9 +18,9 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
-  background-image: url("netflix-backgraound.jpg");
-  color:white;
+    margin-bottom: 60px;
+    /**background-image: url("netflix-backgraound.jpg");**/
+    /**color:white;**/
 }
 h1 {
     font-weight: bolder;
