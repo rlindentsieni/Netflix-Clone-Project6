@@ -39,12 +39,22 @@ input {
     
 }
 
+button nav-button {
+    background-color: #e50914;
+    width: 50px;
+    padding: 6px 3px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
 button {
     background-color: #e50914;
     width: 180px;
     padding: 12px 5px;
     border-radius: 5px;
     border: none;
-    color:white;
-    font-weight:bold;
+    color: white;
+    font-weight: bold;
 }
