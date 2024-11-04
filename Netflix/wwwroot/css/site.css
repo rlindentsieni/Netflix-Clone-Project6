@@ -39,9 +39,9 @@ input {
     
 }
 
-button nav-button {
+.nav-button {
     background-color: #e50914;
-    width: 50px;
+    width: 100px;
     padding: 6px 3px;
     border-radius: 5px;
     border: none;
