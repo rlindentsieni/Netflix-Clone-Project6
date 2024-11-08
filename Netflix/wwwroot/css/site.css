@@ -26,8 +26,14 @@ h1 {
     font-weight: bolder;
 }
 
-.para2 {font-weight:bold;
+.part-1 {
+    background-image: url("netflix-backgraound.jpg");
+    color:white;
+    height : 500px;
+}
 
+.para2 {
+    font-weight: bold;
 }
 
 input {
