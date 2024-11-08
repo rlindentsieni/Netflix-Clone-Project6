@@ -21,6 +21,7 @@ body {
     margin-bottom: 60px;
     /**background-image: url("netflix-backgraound.jpg");**/
     /**color:white;**/
+    background-color:black;
 }
 h1 {
     font-weight: bolder;
