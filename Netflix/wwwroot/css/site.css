@@ -29,6 +29,9 @@ body {
     background-image: url("netflix-backgraound.jpg");
     color:white;
     height : 500px;
+    border-radius:100px;
+  
+   
 }
 
 .para2 {
