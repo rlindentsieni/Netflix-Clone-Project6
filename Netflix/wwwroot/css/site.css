@@ -29,13 +29,14 @@ body {
     background-image: url("netflix-backgraound.jpg");
     color:white;
     height : 500px;
-    border-radius:70px;
+    border-radius:20px;
   
    
 }
 
 .para2 {
     font-weight: bold;
+    margin-top: 70px;
 }
 
 input {
